@@ -66,7 +66,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding: 50px 0;
+    padding: 70px 0;
 }
 
 .visit__textarea {
@@ -76,11 +76,37 @@ body {
 
 .visit__title {
     text-transform: uppercase;
-    font-size: 1.4em;
+    font-size: 1.7em;
+}
+
+.visit__text {
+    font-weight: 200;
 }
 
 .visit__picturearea {
     max-width: 35%;
+}
+
+.visit__picture-title {
+    background-color: rgb(206,32,38);
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    line-height: 3;
+    width: 300px;
+    height: 50px;
+    position: relative;
+    top: -200px;
+}
+
+.visit__picture-title:hover {
+    background-color: rgb(137,21,25);
+    transition: all 0.25s;
+}
+
+.visit__link {
+    text-decoration: none;
 }
 
 .navbar {

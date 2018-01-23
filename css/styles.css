@@ -26,22 +26,23 @@ body {
     height: 133px;
 }
 
-.services__area {
-    padding: 35px 0px;
+.services__container {
+    padding: 35px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.services__container {
+.services__area {
     width: 200px;
     text-align: left;
-    padding: 0 30px;
+    padding: 0 50px 0 30px;
     border-right: 1px white solid;
 }
 
-.services__container:last-of-type {
+.services__area:last-of-type {
     border: none;
+    padding-right: 35px;
 }
 
 .services__title {
@@ -57,6 +58,29 @@ body {
     color: rgba(255,255,255,0.6);
     line-height: 1;
     font-size: 0.9em;
+}
+
+.visit__container {
+    max-width: 980px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.visit__textarea {
+    max-width: 45%;
+    text-align: center;
+}
+
+.visit__title {
+    text-transform: uppercase;
+    font-size: 1.4em;
+}
+
+.visit__picturearea {
+    max-width: 35%;
 }
 
 .navbar {

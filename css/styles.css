@@ -258,16 +258,22 @@ body {
     font-size: 0.9em;
 }
 
+.footer__online {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
 .footer__link {
-    font-weight: 200;
-    font-size: 0.9em;
-    display: block;
     color: rgba(255,255,255,0.6);;
-    text-decoration: none;
 }
 
 .footer__link:hover {
     text-decoration: underline;
+}
+
+.footer__icon {
+    font-size: 1.7em;
 }
 
 .footer__list {

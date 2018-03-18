@@ -102,7 +102,7 @@ body {
 
 .visit__image-title:hover {
     background-color: rgb(137,21,25);
-    transition: all 0.25s;
+    transition: all 0.35s;
 }
 
 .visit__link {
@@ -163,6 +163,27 @@ body {
     max-width: 980px;
     margin: 0 auto;
     padding: 50px 0;
+}
+
+.brands__title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.7em;
+}
+
+.brands__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.brands__image {
+    filter: grayscale(1);
+    transition: filter 0.35s;
+}
+
+.brands__image:hover {
+    filter: grayscale(0);
 }
 
 .footer {

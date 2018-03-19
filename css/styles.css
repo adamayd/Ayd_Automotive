@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans:200,400');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800');
+</style>
 
 html {
     height: 100%;
@@ -20,7 +22,7 @@ body {
 }
 
 .services__section {
-    background-color: rgb(206,32,38);
+    background-color: #79201D;
     color: white;
     width: 100%;
     height: 133px;
@@ -88,7 +90,7 @@ body {
 }
 
 .visit__image-title {
-    background-color: rgb(206,32,38);
+    background-color: #79201D;
     color: white;
     text-align: center;
     text-transform: uppercase;
@@ -101,7 +103,7 @@ body {
 }
 
 .visit__image-title:hover {
-    background-color: rgb(137,21,25);
+    background-color: rgb(206,32,38);
     transition: all 0.35s;
 }
 
@@ -153,6 +155,12 @@ body {
     padding: 0 40px;
 }
 
+.offers__icon {
+    font-size: 2.7em;
+    color: #79201D;
+    padding-bottom: 30px;
+}
+
 .offers__subTitle {
     margin: 0 auto;
     max-width: 75%;
@@ -187,14 +195,14 @@ body {
 }
 
 .footer {
-    background-color: rgb(206,32,38);
+    background-color: #79201D;
     color: white;
     width: 100%;
     height: 133px;
 }
 
 .footer__top {
-    background-color: rgb(206,32,38);
+    background-color: #79201D;
 }
 
 .footer__toparea {
@@ -265,6 +273,7 @@ body {
 }
 
 .footer__link {
+    text-decoration: none;
     color: rgba(255,255,255,0.6);;
 }
 
@@ -273,7 +282,20 @@ body {
 }
 
 .footer__icon {
+    padding: 15px;
+    border: 2px solid;
+    border-radius: 50%;
     font-size: 1.7em;
+}
+
+.footer__icon:hover {
+    transition: all 0.35s;
+    color: #2F2E2E;
+    background: rgba(255,255,255,0.6);
+}
+
+.fa-yelp {
+    padding: 14px 18px 16px 18px;
 }
 
 .footer__list {
@@ -299,8 +321,32 @@ body {
     justify-content: space-between;
 }
 
-.navbar__brand {
+.nav__brand {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar__image {
     max-height: 80px;
+}
+
+.nav__title-top {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.7em;
+    line-height: 0.9;
+    margin-bottom: 0;
+    text-align: center;
+    font-weight: 800;
+    color: #79201D;
+    text-transform: uppercase;
+}
+
+.nav__title-bottom {
+    margin-top: 0;
+    text-align: center;
+    font-weight: 200;
+    text-transform: uppercase;
+    color: slategray;
 }
 
 .navbar__list {
@@ -322,5 +368,5 @@ body {
 }
 
 .navbar__link:hover {
-    color: rgb(206,32,38);
+    color: #79201D;
 }
